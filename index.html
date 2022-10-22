@@ -22,7 +22,7 @@
 	<!-- Responsive-->
 	<link rel="stylesheet" href="css/responsive.css">
 	<!-- fevicon -->
-	<link rel="icon" href="images/logo.png" type="image/x-icon"  id="pot"  >
+	<link rel="icon" href="images/logo.png" type="image/x-icon" id="pot">
 	<!-- Scrollbar Custom CSS -->
 	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
 	<!-- Tweaks for older IEs-->
@@ -32,9 +32,8 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
 		media="screen">
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 <!-- body -->
 
@@ -60,9 +59,11 @@
 								<a class="nav-item nav-link" href="shoes.html">Կոշիկ</a>
 								<a class="nav-item nav-link" href="racing boots.html">Զեղչեր</a>
 								<a class="nav-item nav-link" href="contact.html">Կապ</a>
-								<a class="nav-item nav-link last" href="shoes.html"><img src="images/search_icon.png"></a>
+								<a class="nav-item nav-link last" href="shoes.html"><img
+										src="images/search_icon.png"></a>
 								<a class="nav-item nav-link last" href="shoes.html"><img src="images/shop_icon.png"></a>
-								<button class="flag" ><a href="index/index.html"><img src="images/USA.png" style="width:30px ;"></a></button>
+								<button class="flag"><a href="index/index.html"><img src="images/USA.png"
+											style="width:30px ;"></a></button>
 							</div>
 						</div>
 					</nav>
@@ -90,7 +91,8 @@
 											<div class="shoes_img"><img src="images/running-shoes.png"></div>
 										</div>
 										<div class="col-sm-5">
-											<div class="shoes_img"><img src="images/running-shoes.png"style="width:1000px;"></div>
+											<div class="shoes_img"><img src="images/running-shoes.png"
+													style="width:1000px;"></div>
 										</div>
 									</div>
 								</div>
@@ -344,7 +346,8 @@
 						<div><a href="index.html"><img src="images/logo.png" style="width:150px;"></a></div>
 					</div>
 					<div class="col-sm-6 col-lg-2">
-						<div class="footer-logo"><img src="images/phone-icon.png"><span class="map_text">(+374)
+						<div class="footer-logo"><a href="tel:+37455046414"><img
+								src="images/phone-icon.png"></a><span class="map_text">(+374)
 								55046414</span></div>
 					</div>
 					<div class="col-sm-6 col-lg-3">
@@ -368,7 +371,8 @@
 				<div class="row">
 					<div class="col-sm-4 col-lg-2">
 						<h2 class="shop_text">Հասցե </h2>
-						<div class="image-icon"><img src="images/map-icon.png"><span class="pet_text">Հայաստան/Երևան/Ռայկոմ</span></div>
+						<div class="image-icon"><img src="images/map-icon.png"><span
+								class="pet_text">Հայաստան/Երևան/Ռայկոմ</span></div>
 					</div>
 					<div class="col-sm-4 col-md-6 col-lg-3">
 						<h2 class="shop_text">Մեր Ընկերությունը </h2>
@@ -399,8 +403,6 @@
 		</div>
 	</div>
 	</div>
-
-
 	<!-- Javascript files-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
@@ -413,38 +415,6 @@
 	<!-- javascript -->
 	<script src="js/owl.carousel.js"></script>
 	<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-	<!-- <script>
-		$(document).ready(function () {
-			$(".fancybox").fancybox({
-				openEffect: "none",
-				closeEffect: "none"
-			});
-
-
-			$('#myCarousel').carousel({
-				interval: false
-			});
-
-			//scroll slides on swipe for touch enabled devices
-
-			$("#myCarousel").on("touchstart", function (event) {
-
-				var yClick = event.originalEvent.touches[0].pageY;
-				$(this).one("touchmove", function (event) {
-
-					var yMove = event.originalEvent.touches[0].pageY;
-					if (Math.floor(yClick - yMove) > 1) {
-						$(".carousel").carousel('next');
-					}
-					else if (Math.floor(yClick - yMove) < -1) {
-						$(".carousel").carousel('prev');
-					}
-				});
-				$(".carousel").on("touchend", function () {
-					$(this).off("touchmove");
-				});
-			});
-	</script> -->
 </body>
 
 </html>
