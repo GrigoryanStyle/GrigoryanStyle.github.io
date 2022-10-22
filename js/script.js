@@ -1,6 +1,6 @@
 function buy() {
-    alert("Շնորհակալություն Գնումների Համար")
+    alert("Thank you for your purchase")
 }
 function tenk() {
-    alert("Սպասեք Պատասխանի")
+    alert("Wait for a Reply")
 }

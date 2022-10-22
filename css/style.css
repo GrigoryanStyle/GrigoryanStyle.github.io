@@ -150,7 +150,6 @@ a,
 img {
      max-width: 100%;
      height: auto;
-     width:30;
 }
 
  :focus {
@@ -418,7 +417,7 @@ body{
 	float: left;
 	text-align: center;
 	padding: 20px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	margin: 0px;
 }
 
@@ -459,7 +458,7 @@ body{
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding: 20px;
+	padding:20px;
 	padding-bottom: 40px;
 	margin: 0px
 }
@@ -602,7 +601,7 @@ body{
     float: right;
     background-color: #14120e;
     height: auto;
-    padding: 20px ;
+    padding: 20px 20px;
     opacity: 0.80;
 }
 .form-group {
@@ -777,13 +776,10 @@ a:hover {
 }
 .flag{
     background-color: #000;
-    margin: 5px 
+    margin: 5px
 }
 @media (max-width:700px) {
     .flag{
         background-color:#00ccff;
 }
-}
-.row{
-   margin:0px 0px 0px -5px; 
 }
