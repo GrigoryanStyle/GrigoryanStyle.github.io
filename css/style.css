@@ -150,6 +150,7 @@ a,
 img {
      max-width: 100%;
      height: auto;
+     width:30;
 }
 
  :focus {
@@ -416,7 +417,7 @@ body{
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding-top: 40px;
+	padding: 20px;
 	padding-bottom: 40px;
 	margin: 0px;
 }
@@ -458,7 +459,7 @@ body{
 	width: 100%;
 	float: left;
 	text-align: center;
-	padding-top: 100px;
+	padding: 20px;
 	padding-bottom: 40px;
 	margin: 0px
 }
@@ -489,11 +490,10 @@ body{
 .collection_text{ 
     width: 100%; 
     float: left; 
-    color: #ffffff; 
+    color: #000000; 
     text-align: center; 
     font-weight: bold; 
     font-size: 40px; 
-    background-color: #00ccff;
     padding: 30px 0px;  
 }
 
@@ -537,7 +537,7 @@ body{
     float: left;
     background-color: #ffffff;
     height: auto;
-    padding: 20px 20px 20px 0px;
+    padding: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -602,7 +602,7 @@ body{
     float: right;
     background-color: #14120e;
     height: auto;
-    padding: 20px 20px;
+    padding: 20px ;
     opacity: 0.80;
 }
 .form-group {
@@ -678,7 +678,7 @@ a:hover {
     float: left;
     background-color: #0c0116;
     height: auto;
-    padding-top: 30px;
+    padding: 40px;
     padding-bottom: 30px;
 }
 
@@ -777,5 +777,13 @@ a:hover {
 }
 .flag{
     background-color: #000;
-    margin: 5px
+    margin: 5px 
+}
+@media (max-width:700px) {
+    .flag{
+        background-color:#00ccff;
+}
+}
+.row{
+   margin:0px 0px 0px -5px; 
 }
